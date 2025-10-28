@@ -1,0 +1,19 @@
+Product_Info_2022,Product_Info_2021,International_Sales,Stock_Report,Amazon_Sales
+sku,sku,date,sku,Order_ID
+style,style,Customer_Name,design_no,date
+catalog,catalog,style,stock,Order_Status
+category,category,sku,category,Fulfillment_Type
+weight,weight,Product_Size,size,shipping_level
+cost_price,cost_price,Quantity_Purchased,colour,style
+mrp,mrp,Price_per_Unit,,sku
+,,Gross_Amount,,category
+,,month,,size
+,,,,Amazon_Standard_ID
+,,,,quantity
+,,,,sale
+,,,,city
+,,,,state
+,,,,postal_code
+,,,,b2b
+,,,,Promotion_ID_Count
+,,,,avg. value

@@ -1,0 +1,114 @@
+##################### STATES AND CITIES ############################# 
+BAR GRAPH (desc.O), INDIAN STATE COLOUR VISE
+
+    1. Quantity , avg. value , Sale_Amount column values on Y-axis vs Shipping_State column on x-axis
+    a. Quantity , avg. value , Sale_Amount has multi select drop down filter 
+    b. Quantity , avg. value , Sale_Amount vales range can be slected by user . for example 
+    y axis filter for above 5000000
+    c. top <value input by user from filter > Shipping_State in Quantity , avg. value , Sale_Amount 
+    can be se
+    d. Shipping_State multi select drop down filter
+
+    2. quantity , ratio , sales amount vs city
+    a. quantity , sales , ratio filter
+    b. top quntity , sales , ratio range (no. of top 5 eg.) slected by user
+    c. y axis filter for above 5000000. 
+    d. city selection filter.
+
+    3. no. of promotion ids
+    a. filter wrt to state multi select and top slected
+    b. wrt y axis - value of y axis limit
+
+    4. no. of promotion ids
+    a. filter wrt to city multi select and top slected cities
+    b. wrt y axis - value of y axis limit
+    c. no of city bases on particular state select
+
+    5. order status / Shipping_Service_Level wrt to state
+    a. filter wrt to city multi select and top slected
+    b. wrt y axis - value of y axis limit
+    c. no of city bases on particular state select
+
+    6. order status / Shipping_Service_Level wrt city
+    a. filter wrt to city multi select and top slected
+    b. wrt y axis - value of y axis limit
+    c. no of city bases on particular state select
+# pie chart ki help se show kr skte h ki total kitne order ka y hua h
+
+    7. Product_Category/Product_Size wrt to state
+    a. filter wrt to city multi select and top slected
+    b. wrt y axis - value of y axis limit
+    c. city bases on particular state select
+
+    8. Product_Category/Product_Size wrt city
+    a. filter wrt to city multi select and top slected
+    b. wrt y axis - value of y axis limit
+    c. no of city bases on particular state select
+
+    9. B2B wrt state(% bar graph) for each state (x axis)-true / false(y axis) 
+
+    10. B2B wrt city(% bar graph) for each state (x axis)-true / false(y axis) 
+    a. filter wrt to city multi select and top slected
+    b. city bases on particular state select
+
+
+###################### COLUMN analysis ##################################
+
+    1. order staus cancelled - x axis and sum of quantuty n sales on y axis 
+
+    2. shipping service level - x axis and sum of quantity n sales on y axis 
+
+    3. order_status each category to put in broad 3-4 types and based on it
+    promotion id count + quantity + sales 
+
+    4. Product_Category - x axis and sum on y axis of quantity & Sale_Amount
+    5. Product_Size - x axis and sum on y axis 
+
+    6. keeping one constant ( Product_Category / Product_Size) 
+    and other as x axis and y axis has sum on y axis of quantity & Sale_Amount
+
+
+####################### time analysis ##########################
+
+ 
+    1. quantity , Sale_Amount, ratio wrt to month wrt to selected month (multi delect)
+    bar graph, pie chart , line graph
+
+    2. Product_Category and Product_Size wrt to selected month
+    bar graph, pie chart, line graph.
+
+    C:\Users\dishi\OneDrive\Desktop\dishi\Amazon Sale Report.csv
+
+
+
+The trend line on the monthly gross sales bar graph shows the overall sales trend throughout the year. Let me explain what it's telling you:
+
+What the Trend Line Shows:
+Direction of Sales Over Time:
+
+Upward slope: Sales are increasing over the months
+Downward slope: Sales are decreasing over the months
+Flat/horizontal: Sales are relatively stable
+How It's Calculated:
+
+Uses linear regression (a statistical method) to find the best-fit straight line through all the monthly sales data points
+The line represents the average trend, smoothing out month-to-month fluctuations
+What You Can Learn:
+
+Business growth/decline: See if your sales are improving or declining over the year
+Seasonality patterns: Compare actual monthly bars to the trend line to see which months perform above or below the average trend
+Performance variance: Months where bars are far above the trend line are your peak months; bars below indicate slower periods
+Example Interpretations:
+If the trend line goes up from left to right: Your business is growing throughout the year
+If the trend line goes down from left to right: You need to investigate why sales are declining
+If bars in certain months are much higher than the trend: Those are your peak seasons
+If bars are below the trend line: Those months underperformed compared to your overall trajectory
+The red dashed line makes it easy to spot these patterns at a glance, rather than just looking at individual monthly bars!
+
+
+1. sales overview - merged stock+international
+2. product - alone amazon file analysis. mergerd stock+internatioanl
+3. inventory stock - merged stock + international
+4. produt return - amazon + stock
+5. product profit
+6. customer insight
